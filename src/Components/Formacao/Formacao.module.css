@@ -1,0 +1,27 @@
+
+.Titulos{
+    font-weight: 100;
+    letter-spacing: 10pt;
+    margin-bottom: 2%;
+    margin-left: 11vw;
+    font-size: 3vw;
+    padding-top: 5%;
+  }
+  
+
+h2{
+    font-size: 1.2vw;
+    margin-left: 11vw;
+    letter-spacing: 2.5pt;
+    color:  rgb(0, 167, 139);
+    font-weight: 300;
+    
+}
+
+.Org {
+    font-size: 1.2vw;
+    margin-left: 11vw;
+    margin-bottom: 1vw;
+    font-weight: 300;
+    
+}

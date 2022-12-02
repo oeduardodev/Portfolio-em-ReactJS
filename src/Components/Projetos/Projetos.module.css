@@ -1,0 +1,59 @@
+.Titulos {
+  font-weight: 100;
+  letter-spacing: 10pt;
+  margin-bottom: 2%;
+  margin-left: 11vw;
+  font-size: 3vw;
+  padding-top: 5%;
+}
+
+.BoxCards{
+    margin-left: 9vw;
+}
+
+.Descricao{
+    font-weight: 100;
+    margin-bottom: 2%;
+    margin-left: 11vw;
+    width: 80vw;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+}
+
+.MeusProjetos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  width: 80vw;
+}
+.ProjetoBox {
+  background-color: rgb(211, 211, 211);
+  width: 18vw;
+  height: 10vw;
+  border-radius: 10px;
+}
+
+.IconGroup {
+  color: rgb(0, 124, 103);
+  font-size: 8vw;
+  margin-left: 10vw;
+  cursor: pointer;
+}
+
+.Icon:hover {
+  color: rgb(0, 175, 131);
+  animation: float 1s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

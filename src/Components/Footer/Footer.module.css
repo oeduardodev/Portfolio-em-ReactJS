@@ -1,0 +1,45 @@
+.Footer {
+  background-color: rgb(0, 29, 24);
+  padding: 8vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  width: 100%;
+}
+
+.Contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h4{
+    color: rgb(0, 167, 139);
+    letter-spacing: 3pt;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+}
+
+.Icone{
+    margin-top: 1%;
+    color: white;
+    display: block;
+    width: 25px;
+    float: left;
+}
+
+.ItenContato {
+  margin-top: 6%;
+ 
+}
+
+.Dev p {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin-top: 10%;
+  font-size: 1.2vw;
+  line-height: 1.5vw;
+}

@@ -1,0 +1,64 @@
+{
+  "projetos": [
+    {
+      "id":"01",
+      "name": "Playstation VR",
+      "image": "./src/assets/imagens/psvr.png",
+      "desc":"Aqui ficará a descrição de cada projeto, com um texto simples e direto sobre o o que se trata cada uma das pages.",
+      "botaoProj":"https://github.com/jovemscript/SITE-PLAYSTATIONVR",
+      "linkOnline":"https://projetopsvr.netlify.app/"
+    },
+
+    {
+      "id":"02",
+      "name": "Vereadora Marina",
+      "image": "./src/assets/imagens/marina.png",
+      "desc":"Aqui ficará a descrição de cada projeto, com um texto simples e direto sobre o o que se trata cada uma das pages.",
+      "botaoProj":"https://github.com/jovemscript/SITE-DE-MARINA-LEITE",
+      "linkOnline":"https://marinaleite.netlify.app/"
+    },
+
+    {
+      "id":"03",
+      "name": "Vought - The Boys",
+      "image": "./src/assets/imagens/theboys.png",
+      "desc":"Aqui ficará a descrição de cada projeto, com um texto simples e direto sobre o o que se trata cada uma das pages.",
+      "botaoProj":"https://github.com/jovemscript/LANDING-PAGE-SITE-VOUGHT",
+      "linkOnline":"https://vought.netlify.app/"
+    },
+    {
+      "id":"04",
+      "name": "Mini Pokédex",
+      "image": "./src/assets/imagens/pokemon.png",
+      "desc":"Aqui ficará a descrição de cada projeto, com um texto simples e direto sobre o o que se trata cada uma das pages.",
+      "botaoProj":"",
+      "linkOnline":""
+    },
+    {
+      "id":"05",
+      "name": "Site OAE's",
+      "image": "./src/assets/imagens/denner.png",
+      "desc":"Aqui ficará a descrição de cada projeto, com um texto simples e direto sobre o o que se trata cada uma das pages.",
+      "botaoProj":"https://github.com/jovemscript/PESQUISA-OAES",
+      "linkOnline":"https://dennerpesquisa.netlify.app/"
+    },
+    {
+      "id":"06",
+      "name": "calculadora",
+      "image": "./src/assets/imagens/calculadora.png",
+      "desc":"Aqui ficará a descrição de cada projeto, com um texto simples e direto sobre o o que se trata cada uma das pages.",
+      "botaoProj":"https://github.com/jovemscript/CALCULADORA-DE-IMC",
+      "linkOnline":"https://calculadora-imc-js-eduardo.netlify.app/"
+    },
+
+    {
+      "id":"07",
+      "name": "XY Engenharia",
+      "image": "./src/assets/imagens/xyeng.png",
+      "desc":"Aqui ficará a descrição de cada projeto, com um texto simples e direto sobre o o que se trata cada uma das pages.",
+      "botaoProj":"https://github.com/jovemscript/PRIMEIRA-PAGINA-RESPONSIVO",
+      "linkOnline":"https://primeirositeresponsivo001.netlify.app/"
+    }
+  ]
+  
+}

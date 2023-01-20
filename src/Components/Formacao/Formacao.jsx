@@ -2,7 +2,7 @@ import style from "./Formacao.module.css"
 
 function Formacao() {
   return (
-    <div id="formacao">
+    <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="1200" id="formacao" className={style.Formacao}>
       <h1 className={style.Titulos}>Formação</h1>
       <h2>Sistemas para Internet, Tecnologia da Informação.</h2> 
       <p className={style.Org}>Instituto Federal da Paraíba - IFPB</p>

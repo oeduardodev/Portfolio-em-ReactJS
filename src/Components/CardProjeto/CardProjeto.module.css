@@ -1,4 +1,11 @@
 
+.Geral{
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 8vw ;
+  align-items: center;
+}
+
 .Card {
   width: 25vw;
   display: inline-flex;
@@ -6,20 +13,72 @@
   flex-wrap: wrap;
   color: aliceblue;
   background-color: #1a1a1a;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  margin: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 1.5vw;
+  cursor: pointer;
 }
 .Card:hover {
-  transform: scale(1.05);
-  transition: all 350ms ease-in-out;
+  transition: all 120ms ease-in-out;
+  box-shadow: 1px 1px 20px black;
 }
+
 
 .CardTitulo,
 .CardDesc {
   margin: 1vw;
   font-family: Montserrat, sans-serif;
+  font-size: 1vw;
 }
+
+.CardTitulo{
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.CardState{
+  font-size: 0.9vw;
+  margin-left:1vw;
+  margin-top: -1vw;
+  margin-bottom: 0.5vw  ;
+  display: flex;
+  font-weight: 600;
+  color: rgb(141, 141, 141);
+}
+
+.Conc{
+  color: rgb(0, 175, 117) ;
+  text-shadow: rgb(0, 255, 115) 0px 1px 4px;
+
+}
+
+.Att{
+  color: #ffcd43;
+  text-shadow: rgb(255, 187, 0) 0px 1px 4px;
+
+}
+
+.Int{
+  color: #aa0000;
+  text-shadow: rgb(255, 0, 0) 0px 1px 4px;
+
+}
+
+.Cardtecnologias{
+  font-size: 0.7vw;
+  margin-left:0.5vw;
+  margin-bottom: 0.5vw  ;
+  display: flex;
+  font-weight: 600;
+  color: rgb(141, 141, 141);
+}
+
+span{
+  font-size: 2vw;
+  margin-top: 0.1vw;
+  color: #424242;
+}
+
 
 img {
   width: 100%;
@@ -27,14 +86,14 @@ img {
 }
 
 button {
-  padding: 5px;
+  padding: .7vw;
   display: inline-flex;
-  margin-left: 15px;
-  margin-bottom: 15px;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
   align-content: space-between;
   border: 0;
   letter-spacing: 3px;
-  border-radius: 5px;
+  border-radius: 1.3vw;
   background-color: rgb(0, 175, 131);
   cursor: pointer;
   color: #1a1a1a;
@@ -44,4 +103,55 @@ button {
 
 button:hover {
   background-color: rgb(0, 226, 158);
+}
+@media (max-width: 768px) {
+  .Card {
+    width: 40vw;
+    display: inline-flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    color: aliceblue;
+    background-color: #1a1a1a;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 1.5vw;
+    cursor: pointer;
+  }
+  .Geral{
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 0vw ;
+    align-items:baseline;
+  }
+
+  .CardTitulo,
+.CardDesc {
+  margin: 1vw;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5vw;
+  line-height: 3vw;
+}
+
+.CardTitulo{
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.CardState{
+  font-size: 1.4vw;
+  margin-left:1vw;
+  margin-top: -1vw;
+  margin-bottom: 0.5vw  ;
+  display: flex;
+  font-weight: 600;
+  color: rgb(141, 141, 141);
+}
+.Cardtecnologias{
+  font-size: 1.3vw;
+  margin-left:0.5vw;
+  margin-bottom: 0.5vw  ;
+  display: flex;
+  font-weight: 600;
+  color: rgb(141, 141, 141);
+}
 }

@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "backend": "json-server --watch carrossel-db.json --port 3000",
+    "backend": "json-server --watch ./public/projetos-db.json --port 3000",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.2.3",
     "json-server": "^0.17.1",
     "react": "^18.2.0",

@@ -19,10 +19,11 @@
 ul{
     display: flex;
     flex-direction: row;
+    margin-top: 1vw;
 }
 
 li{
-    margin-right: 2vw;
+    margin-right: 3vw;
     font-size: 1vw;
     cursor: pointer;
 }
@@ -36,4 +37,33 @@ a{
 
 a:hover{
     color: rgb(0, 216, 133);
+}
+
+.Logo{
+    margin-top: -1.5vw;
+    margin-right: 16vw    ;
+    width: 15vw;
+
+}
+
+.MenuMobile{
+    display: none;
+}
+
+.MenuDesk{
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .MenuMobile {
+        display: flex;
+      }  
+
+      
+
+      .MenuDesk{
+        display: none;
+    }
 }

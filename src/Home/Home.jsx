@@ -4,9 +4,11 @@ import Sobre from "../Components/Sobre/Sobre";
 import OutrosConhecimentos from "../Components/OutrosConhecimentos/OutrosConhecimentos";
 import Projetos from "../Components/Projetos/Projetos";
 import Footer from "../Components/Footer/Footer";
-import Carrossel from "../Components/Carrossel/Carrossel";
+import 'aos/dist/aos.css';
 
 function Home() {
+
+  
   return (
     <div>
       <Menu />
@@ -14,7 +16,6 @@ function Home() {
       <Projetos />
       <OutrosConhecimentos />
       <Formacao />
-      <Carrossel />
       <Footer />
     </div>
   );

@@ -7,7 +7,7 @@
 
 .BoxTexto {
   width: 38%;
-  margin-left: 13vw;
+  margin-left: 11vw;
 }
 
 .Titulos {
@@ -92,7 +92,8 @@
   }
 
   .BoxTexto {
-    width: 90%;
+    width: 80%;
+    margin-left: 11vw;
   }
 
   .Titulos {
@@ -155,7 +156,6 @@
   letter-spacing: 5pt;
   margin-bottom: 2%;
   margin-left: 0vw;
-  font-size: 120%;
   padding-top: 5%;
 }
 .IconGroup {

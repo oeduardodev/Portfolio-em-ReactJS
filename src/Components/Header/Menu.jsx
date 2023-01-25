@@ -10,14 +10,12 @@ function Menu() {
   AOS.init();
 
   return (
-    <div data-aos="fade-down" className={styles.MenuContainer}>
+    <header data-aos="fade-down" className={styles.MenuContainer}>
       <Container>
         <nav className={styles.MenuDesk}>
           <img
             className={styles.Logo}
             src="../../../public/logo.png"
-            alt=""
-            srcset=""
           />
 
           <ul>
@@ -85,7 +83,7 @@ function Menu() {
         </nav>
         <nav className={styles.MenuMobile}></nav>
       </Container>
-    </div>
+    </header>
   );
 }
 

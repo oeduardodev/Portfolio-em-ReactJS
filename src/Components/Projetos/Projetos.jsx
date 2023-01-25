@@ -8,7 +8,7 @@ import CardProjeto from "../CardProjeto/CardProjeto";
 
 function Projetos() {
   return (
-    <div data-aos="fade-up" data-aos-duration="3000" id="projetos">
+    <section data-aos="fade-up" data-aos-duration="3000" id="projetos">
       <h1 className={style.Titulos}>Projetos</h1>
       <p className={style.Descricao}>
         Aqui estão alguns dos meus projetos, tanto academicos quando
@@ -40,7 +40,7 @@ function Projetos() {
       <div className={style.BoxCards}>
         <CardProjeto />
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -16,7 +16,10 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   margin: 1.5vw;
+  padding: 5px;
+
   cursor: pointer;
+
 }
 .Card:hover {
   transition: all 120ms ease-in-out;
@@ -68,6 +71,7 @@
   font-size: 0.7vw;
   margin-left:0.5vw;
   margin-bottom: 0.5vw  ;
+  margin-top: 0vw;
   display: flex;
   font-weight: 600;
   color: rgb(141, 141, 141);
@@ -82,7 +86,6 @@ span{
 
 img {
   width: 100%;
-  padding: 5px;
 }
 
 button {
@@ -90,6 +93,7 @@ button {
   display: inline-flex;
   margin-left: 1vw;
   margin-bottom: 1vw;
+  margin-top: 0vw;
   align-content: space-between;
   border: 0;
   letter-spacing: 3px;
@@ -98,7 +102,6 @@ button {
   cursor: pointer;
   color: #1a1a1a;
   font-size: 0.8vw;
-
 }
 
 button:hover {
@@ -116,6 +119,8 @@ button:hover {
     border-bottom-right-radius: 8px;
     margin: 1.5vw;
     cursor: pointer;
+    padding: 5px;
+
   }
   .Geral{
     flex-wrap: wrap;
@@ -153,5 +158,63 @@ button:hover {
   display: flex;
   font-weight: 600;
   color: rgb(141, 141, 141);
+}
+}
+
+@media (max-width: 425px) {
+
+.Geral{
+  width: 90%;
+}
+
+.Card {
+  width: 78vw;
+}
+
+
+.CardTitulo,
+.CardDesc {
+  margin: 1vw;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5vw;
+  line-height: 4vw;
+}
+.CardTitulo{
+  font-size: 3.5vw;
+  font-weight: 500;
+}
+
+.CardState{
+  font-size: 2.6vw;
+  margin-left:1vw;
+  margin-top: 1vw;
+  margin-bottom: 0.5vw  ;
+  display: flex;
+  font-weight: 600;
+  color: rgb(141, 141, 141);
+}
+.Cardtecnologias{
+  font-size: 2.6vw;
+  margin-left:0.5vw;
+  margin-bottom: 0.5vw  ;
+  margin-top: 0vw;
+  display: flex;
+  font-weight: 600;
+  color: rgb(141, 141, 141);
+}
+button {
+  padding: .9vw;
+  display: inline-flex;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+  margin-top: 3vw;
+  align-content: space-between;
+  border: 0;
+  letter-spacing: 3px;
+  border-radius: 1.3vw;
+  background-color: rgb(0, 175, 131);
+  cursor: pointer;
+  color: #1a1a1a;
+  font-size: 2vw;
 }
 }

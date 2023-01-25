@@ -2,7 +2,7 @@ import style from "./Sobre.module.css";
 
 function Sobre() {
   return (
-      <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" className={style.BoxGeral} id="sobre">
+      <section data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" className={style.BoxGeral} id="sobre">
         <div className={style.TextoSobre}>
           <p>
             Olá, tudo bem? Espero que sim. Sou extremamente curioso, apaixonado
@@ -14,7 +14,7 @@ function Sobre() {
             priorizam parceiras duradouras.
           </p>
         </div>
-      </div>
+      </section>
   );
 }
 

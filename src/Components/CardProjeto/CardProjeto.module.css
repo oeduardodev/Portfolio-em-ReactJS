@@ -74,7 +74,9 @@
   margin-top: 0vw;
   display: flex;
   font-weight: 600;
+  letter-spacing: 0.05vw;
   color: rgb(141, 141, 141);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 span{

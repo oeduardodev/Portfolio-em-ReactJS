@@ -26,7 +26,7 @@ function CardProjeto() {
             <img src={repo.image}/>
             <h3 className={style.CardTitulo}>{repo.name}</h3>
             <p className={style.CardDesc}>{repo.desc}</p>
-            <p className={style.CardState}><span className={`${style[repo.statestyle]}`}>•</span>{repo.status}<p className={style.Cardtecnologias}>{repo.tecnologias}</p></p>
+            <p className={style.CardState}><span className={`${style[repo.statestyle]}`}>•</span>{repo.status}<span className={style.Cardtecnologias}>{repo.tecnologias}</span></p>
             <a target="_blank" href={repo.botaoProj}><button className={style.Codigo}>CÓDIGO</button></a>   
             <a target="_blank" href={repo.linkOnline}><button className={style.Web}>ACESSAR</button></a>          
             </div>  

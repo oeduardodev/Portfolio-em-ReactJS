@@ -7,8 +7,8 @@ function Footer (){
         <footer className={style.Footer} id="contato">
             <div className={style.Contato}>
             <h4>Clique e Acesse:</h4>
-            <li className={style.ItenContato}><BsLinkedin className={style.Icone}/> <a  href="http://">Meu Linkedin </a></li>
-            <li className={style.ItenContato}><BsGithub className={style.Icone}/> <a  href="http://"> Meu GitHub </a></li>
+            <li className={style.ItenContato}><BsLinkedin className={style.Icone}/> <a  href="https://www.linkedin.com/in/eduardo-leite-78620b1a3/">Meu Linkedin </a></li>
+            <li className={style.ItenContato}><BsGithub className={style.Icone}/> <a  href="https://github.com/jovemscript/"> Meu GitHub </a></li>
             <li className={style.ItenContato}><TfiInstagram className={style.Icone}/> <a  href="http://">Meu instagram</a></li>
             </div>
             <div className={style.Dev}>

@@ -7,6 +7,8 @@
     width: 100%;
     behavior: smooth;
     top: 0;
+    position: fixed;
+    z-index: 999;
 }
 
 
@@ -56,14 +58,63 @@ a:hover{
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-    .MenuMobile {
-        display: flex;
-      }  
-
+@media (max-width: 768px) {    
       
+    .Logo{
+        margin-top: 0vw;
+        margin-right:40vw ;  
+        margin-left:3vw ;  
+        width:35vw;
+        
+    
+    } 
 
-      .MenuDesk{
+    .MenuDesk{
         display: none;
     }
+
+    .MenuMobile {
+        display: block;
+        position: fixed;
+        z-index: 999;
+        background-color: rgb(0, 48, 41);
+        width: 100%;
+        padding: 2vw;
+        border-bottom-left-radius: 6vw;
+        border-bottom-right-radius: 6vw;
+      }  
+
+    .headerMobile{
+display: inline-flex;
+      }
+
+    .Hamburger{
+        margin-top: 3vw;        
+        width: 7vw;
+        height: 8vw;
+    }
+
+    .MenuMobile>ul{
+      
+        margin-left: 6vw;
+        flex-direction: column;
+    }
+    .MenuMobile > ul > li{
+        margin-top: 5vw;
+        margin-bottom:6vw;
+        font-size: 3vw;
+        flex-direction: column;
+    }
+
+    .MenuContainer{
+        display: flex;
+        padding: 0vw;
+ 
+    }
+    
+ 
+
+
+
+
 }

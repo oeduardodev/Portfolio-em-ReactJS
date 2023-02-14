@@ -12,8 +12,7 @@ function Projetos() {
       <h1 className={style.Titulos}>Projetos</h1>
       <p className={style.Descricao}>
         Aqui estão alguns dos meus projetos, tanto academicos quando
-        profissionais. Para filtralos basta clicar no icone da tecnologia que
-        voce deseja. Contudo nem todos aqui listados estão concluídos.
+        profissionais focados em front-end. Contudo nem todos aqui listados estão concluídos. Para saber mais sobe as tecnologias clique sobre os icones. 
       </p>
       <div className={style.IconGroup}>
         <a className={style.IconLink} href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="noopener noreferrer"> 

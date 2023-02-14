@@ -1,3 +1,7 @@
+@font-face {
+  font-family:Montserrat-med ;
+  src: url(../../assets/fonts/Montserrat-Medium.ttf);
+}
 
 .Geral{
   flex-wrap: wrap;
@@ -30,7 +34,7 @@
 .CardTitulo,
 .CardDesc {
   margin: 1vw;
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat-med , sans-serif;
   font-size: 1vw;
 }
 
@@ -80,7 +84,7 @@
 }
 
 span{
-  font-size: 2vw;
+  font-size: 2.5vw;
   margin-top: 0.1vw;
   color: #424242;
 }

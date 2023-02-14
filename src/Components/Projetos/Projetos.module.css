@@ -55,12 +55,15 @@
 
 .IconLink {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   margin-bottom: 2vw;
 }
 
 .IconLink > p {
   color: rgb(101, 101, 101);
+  font-weight: 600;
+  padding: 1vw;
+
 }
 
 @keyframes float {

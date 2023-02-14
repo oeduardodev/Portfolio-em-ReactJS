@@ -1,3 +1,9 @@
+@font-face {
+    font-family:Montserrat-light ;
+    src: url(../../assets/fonts/Montserrat-Light.ttf);
+}
+
+
 .BoxGeral{
 
    margin: 0 auto;
@@ -8,18 +14,20 @@
     background-color:rgb(0, 29, 24);
     display: flex;
     align-content: center;
-    width: 70vw;
+    width: 65vw;
     padding: 5vw;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.342);
     border-radius: 10px;
     margin-top:15vw;
+    font-weight: 100;
+
    
 }
  p{
     color: rgb(255, 255, 255);
     font-size: 1.2vw;
     line-height: 1.9vw;
-    font-family: Montserrat, sans-serif;
+    font-family:Montserrat-light ;
     overflow: hidden;
     margin: 0 auto;
     display: inline-block;

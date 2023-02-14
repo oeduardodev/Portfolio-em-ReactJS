@@ -4,7 +4,7 @@ import style from "./CardProjeto.module.css"
 
 function CardProjeto() {
   useEffect(() => {
-    fetch(`http://localhost:3000/projetos/`, {
+    fetch(`https://my-json-server.typicode.com/jovemscript/backendPortfolio/projetos`, {
       method:'GET',
       headers: {
           'Content-Type': 'application/json',

@@ -1,3 +1,8 @@
+@font-face {
+  font-family:Montserrat-med ;
+  src: url(../../assets/fonts/Montserrat-Medium.ttf);
+}
+
 .OutrosConhecimentos {
   padding-top: 10vw;
   flex-direction: row;
@@ -47,6 +52,7 @@
 
 .IconLink > p {
   color: rgb(101, 101, 101);
+  font-weight: 600;
 }
 .Icon {
   margin-left: 0vw;
@@ -133,6 +139,9 @@
     color: rgb(101, 101, 101);
     font-size: 12%;
     margin-top: 5px;
+    font-weight: 600;
+    padding: 1vw;
+
   }
 
   .Icon {
@@ -153,10 +162,11 @@
 }
 .Titulos {
   font-weight: 100;
-  letter-spacing: 5pt;
+  letter-spacing: 4pt;
   margin-bottom: 2%;
   margin-left: 0vw;
   padding-top: 5%;
+  font-size: 6vw;
 }
 .IconGroup {
   color: rgb(0, 124, 103);

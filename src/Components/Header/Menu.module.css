@@ -1,6 +1,6 @@
 .MenuContainer{
     display: flex;
-    background-color: rgb(0, 48, 41);
+    background-color: rgba(5, 57, 49, 0.893);
     padding: 2vw;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -65,8 +65,6 @@ a:hover{
         margin-right:40vw ;  
         margin-left:3vw ;  
         width:35vw;
-        
-    
     } 
 
     .MenuDesk{
@@ -77,7 +75,7 @@ a:hover{
         display: block;
         position: fixed;
         z-index: 999;
-        background-color: rgb(0, 48, 41);
+        background-color: rgba(5, 57, 49, 0.893);
         width: 100%;
         padding: 2vw;
         border-bottom-left-radius: 6vw;

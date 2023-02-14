@@ -21,8 +21,7 @@ function Menu() {
     <header data-aos="fade-down" className={styles.MenuContainer}>
       <Container>
         <nav className={styles.MenuDesk}>
-          <img className={styles.Logo} src="../../../public/logo.png" />
-
+          <img className={styles.Logo} src="../../../src/assets/imagens/logo.png" />
           <ul>
             <li>
               <Link
@@ -88,10 +87,10 @@ function Menu() {
         </nav>
         <nav className={styles.MenuMobile}>
           <div className={styles.headerMobile}>
-        <img className={styles.Logo} src="../../../public/logo.png" />
+          <img className={styles.Logo} src="../../../src/assets/imagens/logo.png" />
           <img
             className={styles.Hamburger}
-            src="../../../public/hamburguer.png"
+            src="../../../src/assets/imagens/hamburguer.png"
             alt="Menu"
             onClick={toggleMenu}
           />

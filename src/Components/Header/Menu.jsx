@@ -87,10 +87,10 @@ function Menu() {
         </nav>
         <nav className={styles.MenuMobile}>
           <div className={styles.headerMobile}>
-          <img className={styles.Logo} src="../../../src/assets/imagens/logo.png" />
+          <img className={styles.Logo} src="https://i.ibb.co/LJKvtSq/logo.png" />
           <img
             className={styles.Hamburger}
-            src="../../../src/assets/imagens/hamburguer.png"
+            src="https://i.ibb.co/rct1qLP/hamburguer.png"
             alt="Menu"
             onClick={toggleMenu}
           />

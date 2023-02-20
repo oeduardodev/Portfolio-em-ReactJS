@@ -11,6 +11,7 @@
       "statestyle":"Conc",
       "tecnologias":"| HTML | CSS | JavaScript | Bootstrap |"
     },
+
     {
       "id":"02",
       "name": "Mini Pokédex",
@@ -22,19 +23,9 @@
       "statestyle":"Conc",
       "tecnologias":"| HTML | CSS | JavaScript |"    
     },
+
     {
       "id":"03",
-      "name": "Playstation VR",
-      "image": "https://i.ibb.co/qprXhFP/psvr.png",
-      "desc":"Este é um projeto aberto desenvolvido como desafio utilizando o meu aprendizado do curso de HTML, CSS e Javascript da plataforma Curso em Vídeo.",
-      "botaoProj":"https://github.com/jovemscript/SITE-PLAYSTATIONVR",
-      "linkOnline":"https://projetopsvr.netlify.app/",
-      "status":"Atualização",
-      "statestyle":"Att",
-      "tecnologias":"| HTML | CSS | JavaScript | Bootstrap |"
-    },
-    {
-      "id":"04",
       "name": "Site OAE's",
       "image": "https://i.ibb.co/KqhDzGc/denner.png",
       "desc":"Desenvolvido para facilitação do público ao acesso da pesquisa sobre OAEs - Obras de Artes especiais do estado da Paraíba. Estudo realizada por Denner Viana.",
@@ -44,6 +35,19 @@
       "statestyle":"Conc",
       "tecnologias":"| HTML | CSS | JavaScript | Bootstrap |"
     },
+
+    {
+      "id":"04",
+      "name": "Treinando JavaScript",
+      "image": "https://i.ibb.co/KK2G40t/jsprojs.png",
+      "desc":"Projeto construído com o passar do curso: React Para Iniciantes, do Canal Felipe Rocha - dicasparadevs. Rerforçando assim meus conhecimentos.",
+      "botaoProj":"https://github.com/jovemscript/Exercitando-JavaScript-Puro",
+      "linkOnline":"https://earnest-mousse-cc9cb1.netlify.app/index.html",
+      "status":"Concluído",
+      "statestyle":"Conc",
+      "tecnologias":" JavaScript "
+    },
+
     {
       "id":"05",
       "name": "Calculadora de IMC",
@@ -55,6 +59,7 @@
       "statestyle":"Conc",
       "tecnologias":"| HTML | CSS | JavaScript |"
     },
+
     {
       "id":"06",
       "name": "Vereadora Marina",
@@ -77,6 +82,18 @@
       "status":"Concluído",
       "statestyle":"Conc",
       "tecnologias":"| HTML | CSS |"
+    },
+
+    {
+      "id":"09",
+      "name": "Bloco de Notas",
+      "image": "https://i.ibb.co/18pTcLZ/blocodenotas.png",
+      "desc":"Projeto construído com o passar do curso: React Para Iniciantes, do Canal Felipe Rocha - dicasparadevs. Rerforçando assim meus conhecimentos.",
+      "botaoProj":"https://github.com/jovemscript/Bloco-de-Tarefas-em-React.JS",
+      "linkOnline":"https://bloco-de-tarefas-em-react-js.vercel.app/",
+      "status":"Concluído",
+      "statestyle":"Conc",
+      "tecnologias":"| ReactJS |"
     }
   ]
 }

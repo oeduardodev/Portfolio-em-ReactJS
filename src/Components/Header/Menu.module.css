@@ -1,6 +1,6 @@
 .MenuContainer{
     display: flex;
-    background-color: rgba(5, 57, 49, 0.893);
+    background-color: rgba(5, 57, 49, 0.949);
     padding: 2vw;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -75,7 +75,7 @@ a:hover{
         display: block;
         position: fixed;
         z-index: 999;
-        background-color: rgba(5, 57, 49, 0.893);
+        background-color: rgba(5, 57, 49, 0.949);
         width: 100%;
         padding: 2vw;
         border-bottom-left-radius: 6vw;
@@ -98,10 +98,14 @@ display: inline-flex;
         flex-direction: column;
     }
     .MenuMobile > ul > li{
-        margin-top: 5vw;
-        margin-bottom:6vw;
-        font-size: 3vw;
+        margin-top: 3vw;
+        margin-bottom:3vw;
+        font-size: 3.5vw;
         flex-direction: column;
+        padding: 3vw;
+        border-radius: 3vw;
+        background-color: rgba(0, 0, 0, 0.181);
+        width: 50vw;
     }
 
     .MenuContainer{

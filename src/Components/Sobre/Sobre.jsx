@@ -6,9 +6,8 @@ function Sobre() {
         <div className={style.TextoSobre}>
           <p>
             Sou extremamente curioso, apaixonado por tecnologia e artes digitais. 
-            Sempre busco aprender mais sobre a área para evoluir profissionalmente 
-            como desenvolvedor Front-End. Atualmente estou focando em maximizar meus 
-            conhecimentos em ReactJS. Procuro oportunidades para contribuir 
+            Sempre busco aprender mais como desenvolvedor. Atualmente estou focando 
+            em maximizar meus conhecimentos em ReactJS. Procuro oportunidades para contribuir 
             com empresas e projetos que priorizam parceiras duradouras.
           </p>
         </div>

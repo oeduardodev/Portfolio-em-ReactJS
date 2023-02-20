@@ -51,6 +51,9 @@
   display: flex;
   font-weight: 600;
   color: rgb(141, 141, 141);
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
+
 }
 
 .Conc{
@@ -167,8 +170,12 @@ button:hover {
 }
 }
 
-@media (max-width: 425px) {
-
+@media (max-width: 500px) {
+  span{
+    font-size: 5.5vw;
+    margin-top: 0.1vw;
+    color: #424242;
+  }
 .Geral{
   width: 90%;
 }

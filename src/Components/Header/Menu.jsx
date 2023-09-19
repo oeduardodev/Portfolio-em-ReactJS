@@ -1,19 +1,19 @@
-import Container from "../Container/Container";
-import styles from "./Menu.module.css";
-import { useState } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import Container from '../Container/Container'
+import styles from './Menu.module.css'
+import { useState } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
-import { Link } from "react-scroll";
+import { Link } from 'react-scroll'
 
 function Menu() {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false)
 
   function toggleMenu() {
-    setShowMenu(!showMenu);
+    setShowMenu(!showMenu)
   }
 
-  AOS.init();
+  AOS.init()
 
   return (
     <header data-aos="fade-down" className={styles.MenuContainer}>
@@ -101,9 +101,11 @@ function Menu() {
           </div>
           {showMenu && (
             <ul>
-              <li data-aos="fade-right"
-            data-aos-duration="250"
-            data-aos-easing="ease-in-out">
+              <li
+                data-aos="fade-right"
+                data-aos-duration="250"
+                data-aos-easing="ease-in-out"
+              >
                 <Link
                   activeClass="active"
                   to="sobre"
@@ -115,9 +117,11 @@ function Menu() {
                   Sobre
                 </Link>
               </li>
-              <li data-aos="fade-right"
-            data-aos-duration="300"
-            data-aos-easing="ease-in-out">
+              <li
+                data-aos="fade-right"
+                data-aos-duration="300"
+                data-aos-easing="ease-in-out"
+              >
                 <Link
                   activeClass="active"
                   to="projetos"
@@ -129,9 +133,11 @@ function Menu() {
                   Projetos
                 </Link>
               </li>
-              <li data-aos="fade-right"
-            data-aos-duration="350"
-            data-aos-easing="ease-in-out">
+              <li
+                data-aos="fade-right"
+                data-aos-duration="350"
+                data-aos-easing="ease-in-out"
+              >
                 <Link
                   activeClass="active"
                   to="outros_conhecimentos"
@@ -143,9 +149,11 @@ function Menu() {
                   Outros Conhecimentos
                 </Link>
               </li>
-              <li data-aos="fade-right"
-            data-aos-duration="400"
-            data-aos-easing="ease-in-out">
+              <li
+                data-aos="fade-right"
+                data-aos-duration="400"
+                data-aos-easing="ease-in-out"
+              >
                 <Link
                   activeClass="active"
                   to="formacao"
@@ -157,9 +165,11 @@ function Menu() {
                   Formação
                 </Link>
               </li>
-              <li data-aos="fade-right"
-            data-aos-duration="450"
-            data-aos-easing="ease-in-out">
+              <li
+                data-aos="fade-right"
+                data-aos-duration="450"
+                data-aos-easing="ease-in-out"
+              >
                 <Link
                   activeClass="active"
                   to="contato"
@@ -176,7 +186,7 @@ function Menu() {
         </nav>
       </Container>
     </header>
-  );
+  )
 }
 
-export default Menu;
+export default Menu

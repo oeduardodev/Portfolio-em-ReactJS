@@ -1,9 +1,8 @@
-import style from "./OutrosConhecimentos.module.css";
-import { Link } from "react-router-dom";
+import style from './OutrosConhecimentos.module.css'
+import { Link } from 'react-router-dom'
 
-import { FiFigma } from "react-icons/fi";
-import { SiAdobephotoshop } from "react-icons/si";
-import { SiAdobepremierepro } from "react-icons/si";
+import { FiFigma } from 'react-icons/fi'
+import { SiAdobephotoshop, SiAdobepremierepro } from 'react-icons/si'
 
 function OutrosConhecimentos() {
   return (
@@ -39,6 +38,7 @@ function OutrosConhecimentos() {
           className={style.IconLink}
           href="https://www.figma.com/login"
           target="_blank"
+          rel="noreferrer"
         >
           <FiFigma className={style.Icon} />
           <p>Figma</p>
@@ -47,6 +47,7 @@ function OutrosConhecimentos() {
           className={style.IconLink}
           href="https://www.adobe.com/br/products/photoshop.html"
           target="_blank"
+          rel="noreferrer"
         >
           <SiAdobephotoshop className={style.Icon} />
           <p>Photoshop</p>
@@ -56,14 +57,14 @@ function OutrosConhecimentos() {
           className={style.IconLink}
           href="https://www.adobe.com/br/products/premiere.html"
           target="_blank"
+          rel="noreferrer"
         >
           <SiAdobepremierepro className={style.Icon} />
           <p>Premiere</p>
-          
         </a>
       </div>
     </div>
-  );
+  )
 }
 
-export default OutrosConhecimentos;
+export default OutrosConhecimentos

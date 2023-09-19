@@ -35,7 +35,7 @@
 
 .IconGroup {
   color: rgb(0, 124, 103);
-  font-size: 8vw;
+  font-size: 5vw;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -63,6 +63,7 @@
   color: rgb(101, 101, 101);
   font-weight: 600;
   padding: 1vw;
+  font-size: 0.75rem;
 
 }
 

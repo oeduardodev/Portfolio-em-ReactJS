@@ -19,7 +19,6 @@
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.4.2",
     "react-scroll": "^1.8.8",
-    "react-typical": "^0.2.0",
     "reactstrap": "^9.1.5"
   },
   "devDependencies": {

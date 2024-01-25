@@ -35,16 +35,17 @@
 
 .IconGroup {
   color: rgb(0, 124, 103);
-  font-size: 5vw;
+  font-size: 7vw;
   cursor: pointer;
   display: flex;
   justify-content: center;
-  width: 100%;
+  flex-wrap: wrap;
+  width: 85rem;
 }
 
 .Icon {
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   color: rgb(0, 124, 103);
 }
 
@@ -63,7 +64,7 @@
   color: rgb(101, 101, 101);
   font-weight: 600;
   padding: 1vw;
-  font-size: 0.75rem;
+  font-size: 1rem;
 
 }
 

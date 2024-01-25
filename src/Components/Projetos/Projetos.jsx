@@ -5,10 +5,15 @@ import {
   DiJavascript1,
   DiBootstrap,
   DiReact,
+  DiNodejs,
+  DiJava,
+  DiJavascript,
+  DiMsqlServer,
 } from 'react-icons/di'
-import { SiMysql, SiTypescript } from 'react-icons/si'
+import { SiInstructables, SiMysql, SiNodedotjs, SiSqlite, SiTypescript } from 'react-icons/si'
 
 import CardProjeto from '../CardProjeto/CardProjeto'
+import { BsFiletypeSql } from 'react-icons/bs'
 
 function Projetos() {
   return (
@@ -41,6 +46,15 @@ function Projetos() {
         </a>
         <a
           className={style.IconLink}
+          href="https://nodejs.org/pt-br/pt-BR/docs/Web/JavaScript"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <DiJavascript1 className={style.Icon} />
+          <p>Javascript</p>
+        </a>
+        <a
+          className={style.IconLink}
           href="https://getbootstrap.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -54,9 +68,10 @@ function Projetos() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <DiJavascript1 className={style.Icon} />
+          <SiNodedotjs className={style.Icon} />
           <p>Node JS</p>
         </a>
+
         <a
           className={style.IconLink}
           href="https://pt-br.reactjs.org/"
@@ -81,8 +96,8 @@ function Projetos() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <SiMysql className={style.Icon} />
-          <p>My SQL</p>
+          <BsFiletypeSql className={style.Icon} />
+          <p>SQL</p>
         </a>
       </div>
       <div className={style.BoxCards}>

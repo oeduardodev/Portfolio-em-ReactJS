@@ -30,7 +30,7 @@ function Footer() {
       <div className={style.Dev}>
         <p>
           Copyright by Eduardo Leite <br />
-          25 de fevereiro de 2023
+          25 de Janeiro de 2024
         </p>
       </div>
     </footer>

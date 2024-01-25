@@ -22,11 +22,11 @@
   margin: 1.5vw;
   padding: 5px;
 
-  cursor: pointer;
+  cursor:default;
 
 }
 .Card:hover {
-  transition: all 120ms ease-in-out;
+  transition: all 300ms ease-in-out;
   box-shadow: 1px 1px 20px black;
 }
 
@@ -87,8 +87,8 @@
 }
 
 span{
-  font-size: 2.5vw;
-  margin-top: 0.1vw;
+  font-size: 3rem;
+  margin-left: .2rem;
   color: #424242;
 }
 

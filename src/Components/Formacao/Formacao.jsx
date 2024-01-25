@@ -17,7 +17,7 @@ function Formacao() {
       <p className={style.Org}>Matheus Battisti - Hora de Codar.</p>
 
       <h2>Curso de Backend com Node.JS .</h2>
-      <p className={style.Org}>Cubos Academy Bolsista -Ifood 10000</p>
+      <p className={style.Org}>Cubos Academy - Bolsa Ifood 1000</p>
 
       <h2>Trilha React.JS </h2>
       <p className={style.Org}>Plataforma - Rocketseat</p>
